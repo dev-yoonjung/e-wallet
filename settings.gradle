@@ -1,3 +1,4 @@
 rootProject.name = 'e-wallet'
-
-include 'membership-service', 'common'
+include 'membership-service',
+        'banking-service',
+        'common'
