@@ -1,4 +1,4 @@
-package vvithnne.ewallet.bankingservice.exception;
+package vvithnne.ewallet.bankingservice.common.exception;
 
 import org.springframework.http.HttpStatus;
 import vvithnne.ewallet.common.exception.BusinessException;

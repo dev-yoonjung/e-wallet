@@ -27,7 +27,7 @@ class RegisterBankAccountControllerTest {
     @Autowired
     private ObjectMapper mapper;
 
-    private static final String BANK_ACCOUNT_URI = "/bank-account";
+    private static final String BANK_ACCOUNT_URI = "/banking/account";
 
     private static final RegisterBankAccountRequest 카카오뱅크_요청 = new RegisterBankAccountRequest(
             1L,

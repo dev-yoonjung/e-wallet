@@ -4,7 +4,7 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Value;
-import vvithnne.ewallet.bankingservice.exception.InvalidBankAccountException;
+import vvithnne.ewallet.bankingservice.common.exception.InvalidBankAccountException;
 import vvithnne.ewallet.common.constant.BankType;
 
 @AllArgsConstructor(access = AccessLevel.PRIVATE)

@@ -26,7 +26,7 @@ public class RegisteredBankAccountMapper {
 
     RegisteredBankAccountJpaEntity mapToJpaEntity(RegisteredBankAccount registeredBankAccount) {
         Long registeredBankAccountId = Optional.ofNullable(registeredBankAccount.getRegisteredBankAccountId())
-                .map(RegisteredBankAccount.RegisteredBankAccountId::getValue)
+                .map(RegisteredBankAccountId::getValue)
                 .orElse(null);
 
         return new RegisteredBankAccountJpaEntity(
