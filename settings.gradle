@@ -1,4 +1,5 @@
 rootProject.name = 'e-wallet'
 include 'membership-service',
         'banking-service',
+        'money-service',
         'common'
